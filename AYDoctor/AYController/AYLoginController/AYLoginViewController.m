@@ -8,6 +8,7 @@
 
 #import "AYLoginViewController.h"
 #import "AYLoginView.h"
+#import "AYForgetPasswordController.h"
 
 @interface AYLoginViewController ()<AYLoginViewDelegate>
 
@@ -18,9 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //设置push过后的返回按钮
+    [self setupNaviBar];
+    
     self.loginView = [[AYLoginView alloc]initWithFrame:self.view.frame];
     self.loginView.delegate = self;
     [self.view addSubview:self.loginView];
+}
+
+- (void)setupNaviBar {
+    UIBarButtonItem *backBtn = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.backBarButtonItem = backBtn;
 }
 
 #pragma mark -- AYLoginViewDelegate
@@ -61,7 +70,9 @@
 
 - (void)forgetPWButtonPress {
     NSLog(@"点击忘记密码按钮");
-    
+    AYForgetPasswordController *forgetPwdCR = [[AYForgetPasswordController alloc] initWithNibName:@"AYForgetPasswordController" bundle:nil];
+    forgetPwdCR.title = @"找回登录密码";
+    [self.navigationController pushViewController:forgetPwdCR animated:YES];
 }
 
 

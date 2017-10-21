@@ -36,7 +36,7 @@
 #define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
 //导航栏和按钮颜色
-#define naviBarAndButtonColor [UIColor colorWithRed:0.0 / 255 green:129.0 / 255.0 blue:209.0 / 255.0 alpha:1.0]
+#define naviBarAndButtonColor [UIColor colorWithHexString:@"6c9d44"]
 #define silderSegmentColor [UIColor colorWithRed:0.0 / 255 green:129.0 / 255.0 blue:209.0 / 255.0 alpha:1.0]
 //朋友圈中按钮颜色
 #define TimeLineCellHighlightedColor [UIColor colorWithRed:92.0 / 255.0 green:140.0 / 255.0 blue:193.0 / 255.0 alpha:1.0]

@@ -111,6 +111,25 @@
 		141A7DE31F9B0D6700B9098E /* AYDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DDD1F9B0D6700B9098E /* AYDatabaseHelper.m */; };
 		141A7DE91F9B128D00B9098E /* AYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DE81F9B128D00B9098E /* AYLoginView.m */; };
 		141A7DEC1F9B13F200B9098E /* AlertViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DEB1F9B13F200B9098E /* AlertViewShow.m */; };
+		141A7DF01F9B1C7B00B9098E /* AYForgetPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DEE1F9B1C7B00B9098E /* AYForgetPasswordController.m */; };
+		141A7DF11F9B1C7B00B9098E /* AYForgetPasswordController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7DEF1F9B1C7B00B9098E /* AYForgetPasswordController.xib */; };
+		141A7DF61F9B2C3100B9098E /* AYMineInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DF41F9B2C3100B9098E /* AYMineInfoCell.m */; };
+		141A7DF71F9B2C3100B9098E /* AYMineInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7DF51F9B2C3100B9098E /* AYMineInfoCell.xib */; };
+		141A7DFB1F9B2C6E00B9098E /* AYMineWoringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DF91F9B2C6E00B9098E /* AYMineWoringCell.m */; };
+		141A7DFC1F9B2C6E00B9098E /* AYMineWoringCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7DFA1F9B2C6E00B9098E /* AYMineWoringCell.xib */; };
+		141A7DFF1F9B337400B9098E /* AYMineInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7DFE1F9B337400B9098E /* AYMineInfoController.m */; };
+		141A7E031F9B33A300B9098E /* AYChangPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E011F9B33A300B9098E /* AYChangPwdController.m */; };
+		141A7E041F9B33A300B9098E /* AYChangPwdController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E021F9B33A300B9098E /* AYChangPwdController.xib */; };
+		141A7E081F9B33DA00B9098E /* AYAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E061F9B33DA00B9098E /* AYAboutUsController.m */; };
+		141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */; };
+		141A7E0D1F9B344D00B9098E /* AYMineWorkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */; };
+		141A7E0E1F9B344D00B9098E /* AYMineWorkingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */; };
+		141A7E141F9B442900B9098E /* AYMineMainViewAvataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E121F9B442900B9098E /* AYMineMainViewAvataCell.m */; };
+		141A7E151F9B442900B9098E /* AYMineMainViewAvataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E131F9B442900B9098E /* AYMineMainViewAvataCell.xib */; };
+		141A7E191F9B444100B9098E /* AYMineMainViewNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E171F9B444100B9098E /* AYMineMainViewNormalCell.m */; };
+		141A7E1A1F9B444100B9098E /* AYMineMainViewNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E181F9B444100B9098E /* AYMineMainViewNormalCell.xib */; };
+		141A7E1E1F9B445E00B9098E /* AYMineMainViewInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */; };
+		141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */; };
 		14D087121F99DC8D00808A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D087111F99DC8D00808A52 /* AppDelegate.m */; };
 		14D0871A1F99DC8D00808A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D087191F99DC8D00808A52 /* Assets.xcassets */; };
 		14D087201F99DC8D00808A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D0871F1F99DC8D00808A52 /* main.m */; };
@@ -355,6 +374,35 @@
 		141A7DE81F9B128D00B9098E /* AYLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYLoginView.m; sourceTree = "<group>"; };
 		141A7DEA1F9B13F200B9098E /* AlertViewShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewShow.h; sourceTree = "<group>"; };
 		141A7DEB1F9B13F200B9098E /* AlertViewShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewShow.m; sourceTree = "<group>"; };
+		141A7DED1F9B1C7B00B9098E /* AYForgetPasswordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYForgetPasswordController.h; sourceTree = "<group>"; };
+		141A7DEE1F9B1C7B00B9098E /* AYForgetPasswordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYForgetPasswordController.m; sourceTree = "<group>"; };
+		141A7DEF1F9B1C7B00B9098E /* AYForgetPasswordController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYForgetPasswordController.xib; sourceTree = "<group>"; };
+		141A7DF31F9B2C3100B9098E /* AYMineInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineInfoCell.h; sourceTree = "<group>"; };
+		141A7DF41F9B2C3100B9098E /* AYMineInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineInfoCell.m; sourceTree = "<group>"; };
+		141A7DF51F9B2C3100B9098E /* AYMineInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineInfoCell.xib; sourceTree = "<group>"; };
+		141A7DF81F9B2C6E00B9098E /* AYMineWoringCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineWoringCell.h; sourceTree = "<group>"; };
+		141A7DF91F9B2C6E00B9098E /* AYMineWoringCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineWoringCell.m; sourceTree = "<group>"; };
+		141A7DFA1F9B2C6E00B9098E /* AYMineWoringCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineWoringCell.xib; sourceTree = "<group>"; };
+		141A7DFD1F9B337400B9098E /* AYMineInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineInfoController.h; sourceTree = "<group>"; };
+		141A7DFE1F9B337400B9098E /* AYMineInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineInfoController.m; sourceTree = "<group>"; };
+		141A7E001F9B33A300B9098E /* AYChangPwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYChangPwdController.h; sourceTree = "<group>"; };
+		141A7E011F9B33A300B9098E /* AYChangPwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYChangPwdController.m; sourceTree = "<group>"; };
+		141A7E021F9B33A300B9098E /* AYChangPwdController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYChangPwdController.xib; sourceTree = "<group>"; };
+		141A7E051F9B33DA00B9098E /* AYAboutUsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYAboutUsController.h; sourceTree = "<group>"; };
+		141A7E061F9B33DA00B9098E /* AYAboutUsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYAboutUsController.m; sourceTree = "<group>"; };
+		141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYAboutUsController.xib; sourceTree = "<group>"; };
+		141A7E0A1F9B344D00B9098E /* AYMineWorkingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineWorkingController.h; sourceTree = "<group>"; };
+		141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineWorkingController.m; sourceTree = "<group>"; };
+		141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineWorkingController.xib; sourceTree = "<group>"; };
+		141A7E111F9B442900B9098E /* AYMineMainViewAvataCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineMainViewAvataCell.h; sourceTree = "<group>"; };
+		141A7E121F9B442900B9098E /* AYMineMainViewAvataCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineMainViewAvataCell.m; sourceTree = "<group>"; };
+		141A7E131F9B442900B9098E /* AYMineMainViewAvataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineMainViewAvataCell.xib; sourceTree = "<group>"; };
+		141A7E161F9B444100B9098E /* AYMineMainViewNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineMainViewNormalCell.h; sourceTree = "<group>"; };
+		141A7E171F9B444100B9098E /* AYMineMainViewNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineMainViewNormalCell.m; sourceTree = "<group>"; };
+		141A7E181F9B444100B9098E /* AYMineMainViewNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineMainViewNormalCell.xib; sourceTree = "<group>"; };
+		141A7E1B1F9B445E00B9098E /* AYMineMainViewInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineMainViewInputCell.h; sourceTree = "<group>"; };
+		141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineMainViewInputCell.m; sourceTree = "<group>"; };
+		141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineMainViewInputCell.xib; sourceTree = "<group>"; };
 		14D0870D1F99DC8D00808A52 /* AYDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D087101F99DC8D00808A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14D087111F99DC8D00808A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -790,6 +838,44 @@
 			path = AYLoginView;
 			sourceTree = "<group>";
 		};
+		141A7DF21F9B2BD000B9098E /* AYMineView */ = {
+			isa = PBXGroup;
+			children = (
+				141A7E101F9B43F500B9098E /* AYMineWorkingView */,
+				141A7E0F1F9B43CE00B9098E /* AYMineMainView */,
+				141A7DF31F9B2C3100B9098E /* AYMineInfoCell.h */,
+				141A7DF41F9B2C3100B9098E /* AYMineInfoCell.m */,
+				141A7DF51F9B2C3100B9098E /* AYMineInfoCell.xib */,
+				141A7DF81F9B2C6E00B9098E /* AYMineWoringCell.h */,
+				141A7DF91F9B2C6E00B9098E /* AYMineWoringCell.m */,
+				141A7DFA1F9B2C6E00B9098E /* AYMineWoringCell.xib */,
+			);
+			path = AYMineView;
+			sourceTree = "<group>";
+		};
+		141A7E0F1F9B43CE00B9098E /* AYMineMainView */ = {
+			isa = PBXGroup;
+			children = (
+				141A7E111F9B442900B9098E /* AYMineMainViewAvataCell.h */,
+				141A7E121F9B442900B9098E /* AYMineMainViewAvataCell.m */,
+				141A7E131F9B442900B9098E /* AYMineMainViewAvataCell.xib */,
+				141A7E161F9B444100B9098E /* AYMineMainViewNormalCell.h */,
+				141A7E171F9B444100B9098E /* AYMineMainViewNormalCell.m */,
+				141A7E181F9B444100B9098E /* AYMineMainViewNormalCell.xib */,
+				141A7E1B1F9B445E00B9098E /* AYMineMainViewInputCell.h */,
+				141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */,
+				141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */,
+			);
+			path = AYMineMainView;
+			sourceTree = "<group>";
+		};
+		141A7E101F9B43F500B9098E /* AYMineWorkingView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AYMineWorkingView;
+			sourceTree = "<group>";
+		};
 		14D087041F99DC8C00808A52 = {
 			isa = PBXGroup;
 			children = (
@@ -868,6 +954,7 @@
 		14D087441F99DED300808A52 /* AYView */ = {
 			isa = PBXGroup;
 			children = (
+				141A7DF21F9B2BD000B9098E /* AYMineView */,
 				141A7DE61F9B124A00B9098E /* AYLoginView */,
 			);
 			path = AYView;
@@ -889,6 +976,12 @@
 			children = (
 				14D087471F99E4A000808A52 /* AYLoginViewController.h */,
 				14D087481F99E4A000808A52 /* AYLoginViewController.m */,
+				141A7DED1F9B1C7B00B9098E /* AYForgetPasswordController.h */,
+				141A7DEE1F9B1C7B00B9098E /* AYForgetPasswordController.m */,
+				141A7DEF1F9B1C7B00B9098E /* AYForgetPasswordController.xib */,
+				141A7E001F9B33A300B9098E /* AYChangPwdController.h */,
+				141A7E011F9B33A300B9098E /* AYChangPwdController.m */,
+				141A7E021F9B33A300B9098E /* AYChangPwdController.xib */,
 			);
 			path = AYLoginController;
 			sourceTree = "<group>";
@@ -898,6 +991,14 @@
 			children = (
 				14D087501F99E4EE00808A52 /* AYMineController.h */,
 				14D087511F99E4EE00808A52 /* AYMineController.m */,
+				141A7DFD1F9B337400B9098E /* AYMineInfoController.h */,
+				141A7DFE1F9B337400B9098E /* AYMineInfoController.m */,
+				141A7E051F9B33DA00B9098E /* AYAboutUsController.h */,
+				141A7E061F9B33DA00B9098E /* AYAboutUsController.m */,
+				141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */,
+				141A7E0A1F9B344D00B9098E /* AYMineWorkingController.h */,
+				141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */,
+				141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */,
 			);
 			path = AYMineController;
 			sourceTree = "<group>";
@@ -1046,11 +1147,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141A7E151F9B442900B9098E /* AYMineMainViewAvataCell.xib in Resources */,
 				141A7D821F9AEA4300B9098E /* Info.plist in Resources */,
 				14D0871A1F99DC8D00808A52 /* Assets.xcassets in Resources */,
+				141A7E041F9B33A300B9098E /* AYChangPwdController.xib in Resources */,
 				141A7DB71F9AEA4300B9098E /* README.md in Resources */,
 				141A7DB61F9AEA4300B9098E /* LICENSE in Resources */,
 				141A7D9F1F9AEA4300B9098E /* MJRefresh.bundle in Resources */,
+				141A7E1A1F9B444100B9098E /* AYMineMainViewNormalCell.xib in Resources */,
+				141A7DF71F9B2C3100B9098E /* AYMineInfoCell.xib in Resources */,
+				141A7DFC1F9B2C6E00B9098E /* AYMineWoringCell.xib in Resources */,
+				141A7DF11F9B1C7B00B9098E /* AYForgetPasswordController.xib in Resources */,
+				141A7E0E1F9B344D00B9098E /* AYMineWorkingController.xib in Resources */,
+				141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */,
+				141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,6 +1244,7 @@
 				141A7D9C1F9AEA4300B9098E /* UIProgressView+AFNetworking.m in Sources */,
 				141A7DBD1F9AEA4300B9098E /* SDWebImageDownloaderOperation.m in Sources */,
 				141A7DB11F9AEA4300B9098E /* FSCalendarStickyHeader.m in Sources */,
+				141A7E191F9B444100B9098E /* AYMineMainViewNormalCell.m in Sources */,
 				141A7DAA1F9AEA4300B9098E /* FSCalendarCollectionViewLayout.m in Sources */,
 				141A7DA71F9AEA4300B9098E /* FSCalendarCalculator.m in Sources */,
 				141A7CC11F9AE42900B9098E /* Foundation+LogChinese.m in Sources */,
@@ -1141,6 +1252,7 @@
 				141A7DE91F9B128D00B9098E /* AYLoginView.m in Sources */,
 				141A7DDC1F9B05CB00B9098E /* AYConfig.m in Sources */,
 				141A7DCC1F9AF05200B9098E /* AFAppDotNetAPIClient.m in Sources */,
+				141A7E031F9B33A300B9098E /* AYChangPwdController.m in Sources */,
 				141A7D971F9AEA4300B9098E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				141A7D8D1F9AEA4300B9098E /* JYSlideSegmentController.m in Sources */,
 				141A7DA61F9AEA4300B9098E /* FSCalendarAppearance.m in Sources */,
@@ -1149,12 +1261,15 @@
 				141A7D981F9AEA4300B9098E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				141A7CDD1F9AE48700B9098E /* UIView+DG.m in Sources */,
 				141A7D921F9AEA4300B9098E /* AFSecurityPolicy.m in Sources */,
+				141A7E0D1F9B344D00B9098E /* AYMineWorkingController.m in Sources */,
 				14D087551F99E50400808A52 /* AYScheduleController.m in Sources */,
 				141A7CC41F9AE42900B9098E /* NSString+DG.m in Sources */,
 				141A7DC21F9AEA4300B9098E /* UIImage+MultiFormat.m in Sources */,
 				141A7CBB1F9AE42900B9098E /* UIBarButtonItem+SWExtension.m in Sources */,
+				141A7DF01F9B1C7B00B9098E /* AYForgetPasswordController.m in Sources */,
 				141A7DBA1F9AEA4300B9098E /* SDWebImageCompat.m in Sources */,
 				14D0874F1F99E4DD00808A52 /* AYMainController.m in Sources */,
+				141A7DFF1F9B337400B9098E /* AYMineInfoController.m in Sources */,
 				141A7CB11F9AE42900B9098E /* CALayer+Anim.m in Sources */,
 				141A7DD01F9AF16200B9098E /* NTFileServiceShell.m in Sources */,
 				141A7CB51F9AE42900B9098E /* NSString+MD5Encrypt.m in Sources */,
@@ -1164,6 +1279,7 @@
 				141A7D8B1F9AEA4300B9098E /* View+MASAdditions.m in Sources */,
 				141A7DBC1F9AEA4300B9098E /* SDWebImageDownloader.m in Sources */,
 				141A7CB21F9AE42900B9098E /* NSObject+JKReflection.m in Sources */,
+				141A7E1E1F9B445E00B9098E /* AYMineMainViewInputCell.m in Sources */,
 				14D087201F99DC8D00808A52 /* main.m in Sources */,
 				141A7DA31F9AEA4300B9098E /* MJRefreshHeaderView.m in Sources */,
 				141A7DA11F9AEA4300B9098E /* MJRefreshConst.m in Sources */,
@@ -1179,6 +1295,7 @@
 				141A7DAE1F9AEA4300B9098E /* FSCalendarExtensions.m in Sources */,
 				141A7D9E1F9AEA4300B9098E /* UIWebView+AFNetworking.m in Sources */,
 				141A7CBE1F9AE42900B9098E /* UIColor+HEX.m in Sources */,
+				141A7DF61F9B2C3100B9098E /* AYMineInfoCell.m in Sources */,
 				141A7DB31F9AEA4300B9098E /* FSCalendarWeekdayView.m in Sources */,
 				141A7C751F9ADEF200B9098E /* AYConst.m in Sources */,
 				141A7CBD1F9AE42900B9098E /* NSObject+Reflection.m in Sources */,
@@ -1187,6 +1304,7 @@
 				141A7CC51F9AE42900B9098E /* NSString+Trims.m in Sources */,
 				141A7D8A1F9AEA4300B9098E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				141A7D891F9AEA4300B9098E /* NSArray+MASAdditions.m in Sources */,
+				141A7E081F9B33DA00B9098E /* AYAboutUsController.m in Sources */,
 				141A7CC31F9AE42900B9098E /* UIImageView+JKAddition.m in Sources */,
 				141A7DC61F9AEA4300B9098E /* HBKeyChainHelper.m in Sources */,
 				14D087121F99DC8D00808A52 /* AppDelegate.m in Sources */,
@@ -1200,6 +1318,7 @@
 				141A7CB41F9AE42900B9098E /* NSDictionary+null.m in Sources */,
 				141A7DC31F9AEA4300B9098E /* UIImageView+HighlightedWebCache.m in Sources */,
 				141A7DBB1F9AEA4300B9098E /* SDWebImageDecoder.m in Sources */,
+				141A7DFB1F9B2C6E00B9098E /* AYMineWoringCell.m in Sources */,
 				141A7DC11F9AEA4300B9098E /* UIImage+GIF.m in Sources */,
 				141A7D9B1F9AEA4300B9098E /* UIImageView+AFNetworking.m in Sources */,
 				141A7DB81F9AEA4300B9098E /* NSData+ImageContentType.m in Sources */,
@@ -1213,6 +1332,7 @@
 				141A7CB01F9AE42900B9098E /* NSDate+NTExtension.m in Sources */,
 				141A7CBF1F9AE42900B9098E /* NSString+Matcher.m in Sources */,
 				141A7CC71F9AE42900B9098E /* NSString+URLEncodingAdditions.m in Sources */,
+				141A7E141F9B442900B9098E /* AYMineMainViewAvataCell.m in Sources */,
 				141A7DCB1F9AF05200B9098E /* NTServiceShell.m in Sources */,
 				141A7CC61F9AE42900B9098E /* UIView+SWExtension.m in Sources */,
 				141A7DB21F9AEA4300B9098E /* FSCalendarTransitionCoordinator.m in Sources */,

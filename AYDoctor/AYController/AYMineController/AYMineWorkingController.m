@@ -1,24 +1,22 @@
 //
-//  AYScheduleController.m
+//  AYMineWorkingController.m
 //  AYDoctor
 //
-//  Created by WHB_NATON on 2017/10/20.
+//  Created by WHB_NATON on 2017/10/21.
 //  Copyright © 2017年 WHB_NATON. All rights reserved.
 //
 
-#import "AYScheduleController.h"
+#import "AYMineWorkingController.h"
 
-@interface AYScheduleController ()
+@interface AYMineWorkingController ()
 
 @end
 
-@implementation AYScheduleController
+@implementation AYMineWorkingController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"日程";
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
