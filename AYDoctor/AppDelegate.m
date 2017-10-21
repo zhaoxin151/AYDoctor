@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AYLoginViewController.h"
+#import "IQKeyboardManager.h"
 
 
 @interface AppDelegate ()<AYLoginDelegate>
@@ -30,6 +31,7 @@
     
     [self checkUpdate:nil];
     [self GoToMainViewORLogin];
+    [self p_setupKeyBoardManager];
     
     return YES;
 }
@@ -187,6 +189,16 @@
 //        }
 //    } withError:^(NSString *error) {
 //    }];
+}
+
+//设置键盘遮盖问题
+- (void)p_setupKeyBoardManager {
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES; // 控制整个功能是否启用。
+    manager.enableAutoToolbar = NO; // 控制是否显示键盘上的工具条
+    manager.shouldResignOnTouchOutside =YES; // 控制点击背景是否收起键盘
+    [manager setToolbarManageBehaviour:IQAutoToolbarBySubviews];
+    manager.enableDebugging = YES;
 }
 
 

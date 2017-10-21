@@ -11,7 +11,9 @@
 @interface AYMineMainViewInputCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLab;
-@property (weak, nonatomic) IBOutlet UITextView *placeHolderTextView;
-@property (weak, nonatomic) IBOutlet UITextView *detalTextView;
+//设置tag,用来区分三个textView 1.就诊地点 2.擅长 3.简介
+@property (assign, nonatomic) NSInteger textViewTag;
+
+@property (nonatomic , copy) void (^textViewEndEditing)(NSString *text, NSInteger textViewTag);
 
 @end

@@ -26,5 +26,6 @@
 #import "UIImage+Color.h"
 #import "UIColor+HEX.h"
 #import "NSDate+NTExtension.h"
+#import "NSDictionary+null.h"
 #endif
 #endif /* PrefixHeader_pch */

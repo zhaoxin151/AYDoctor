@@ -140,6 +140,24 @@
 		14D087521F99E4EE00808A52 /* AYMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D087511F99E4EE00808A52 /* AYMineController.m */; };
 		14D087551F99E50400808A52 /* AYScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D087541F99E50400808A52 /* AYScheduleController.m */; };
 		81FA0531507C636D6E848B8A /* libPods-AYDoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A592E5301251C0DAB33296C /* libPods-AYDoctor.a */; };
+		9621D7841F9B8121004B7AF1 /* AYMineSpecialityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7821F9B8121004B7AF1 /* AYMineSpecialityController.m */; };
+		9621D7851F9B8121004B7AF1 /* AYMineSpecialityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7831F9B8121004B7AF1 /* AYMineSpecialityController.xib */; };
+		9621D7881F9B8C10004B7AF1 /* AYSelectPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7871F9B8C10004B7AF1 /* AYSelectPickView.m */; };
+		9621D7B01F9BA758004B7AF1 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D78E1F9BA757004B7AF1 /* IQNSArray+Sort.m */; };
+		9621D7B11F9BA758004B7AF1 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7901F9BA757004B7AF1 /* IQUIScrollView+Additions.m */; };
+		9621D7B21F9BA758004B7AF1 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7921F9BA757004B7AF1 /* IQUITextFieldView+Additions.m */; };
+		9621D7B31F9BA758004B7AF1 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7941F9BA757004B7AF1 /* IQUIView+Hierarchy.m */; };
+		9621D7B41F9BA758004B7AF1 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7961F9BA757004B7AF1 /* IQUIViewController+Additions.m */; };
+		9621D7B51F9BA758004B7AF1 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7981F9BA757004B7AF1 /* IQUIWindow+Hierarchy.m */; };
+		9621D7B61F9BA758004B7AF1 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D79D1F9BA757004B7AF1 /* IQKeyboardManager.m */; };
+		9621D7B71F9BA758004B7AF1 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D79F1F9BA757004B7AF1 /* IQKeyboardReturnKeyHandler.m */; };
+		9621D7B81F9BA758004B7AF1 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7A21F9BA757004B7AF1 /* IQTextView.m */; };
+		9621D7B91F9BA758004B7AF1 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7A51F9BA757004B7AF1 /* IQBarButtonItem.m */; };
+		9621D7BA1F9BA758004B7AF1 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7A71F9BA757004B7AF1 /* IQPreviousNextView.m */; };
+		9621D7BB1F9BA758004B7AF1 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7A91F9BA757004B7AF1 /* IQTitleBarButtonItem.m */; };
+		9621D7BC1F9BA758004B7AF1 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7AB1F9BA757004B7AF1 /* IQToolbar.m */; };
+		9621D7BD1F9BA758004B7AF1 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7AD1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.m */; };
+		9621D7BE1F9BA758004B7AF1 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7AF1F9BA757004B7AF1 /* IQKeyboardManager.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -425,6 +443,42 @@
 		14D087541F99E50400808A52 /* AYScheduleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYScheduleController.m; sourceTree = "<group>"; };
 		33E2CC76D507F27615732DFB /* Pods-AYDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-AYDoctor/Pods-AYDoctor.release.xcconfig"; sourceTree = "<group>"; };
 		3A592E5301251C0DAB33296C /* libPods-AYDoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AYDoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9621D7811F9B8121004B7AF1 /* AYMineSpecialityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineSpecialityController.h; sourceTree = "<group>"; };
+		9621D7821F9B8121004B7AF1 /* AYMineSpecialityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineSpecialityController.m; sourceTree = "<group>"; };
+		9621D7831F9B8121004B7AF1 /* AYMineSpecialityController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineSpecialityController.xib; sourceTree = "<group>"; };
+		9621D7861F9B8C10004B7AF1 /* AYSelectPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYSelectPickView.h; sourceTree = "<group>"; };
+		9621D7871F9B8C10004B7AF1 /* AYSelectPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYSelectPickView.m; sourceTree = "<group>"; };
+		9621D78D1F9BA757004B7AF1 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		9621D78E1F9BA757004B7AF1 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		9621D78F1F9BA757004B7AF1 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		9621D7901F9BA757004B7AF1 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		9621D7911F9BA757004B7AF1 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		9621D7921F9BA757004B7AF1 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		9621D7931F9BA757004B7AF1 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		9621D7941F9BA757004B7AF1 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		9621D7951F9BA757004B7AF1 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		9621D7961F9BA757004B7AF1 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		9621D7971F9BA757004B7AF1 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		9621D7981F9BA757004B7AF1 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		9621D79A1F9BA757004B7AF1 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		9621D79B1F9BA757004B7AF1 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		9621D79C1F9BA757004B7AF1 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		9621D79D1F9BA757004B7AF1 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		9621D79E1F9BA757004B7AF1 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		9621D79F1F9BA757004B7AF1 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		9621D7A11F9BA757004B7AF1 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		9621D7A21F9BA757004B7AF1 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		9621D7A41F9BA757004B7AF1 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		9621D7A51F9BA757004B7AF1 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		9621D7A61F9BA757004B7AF1 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		9621D7A71F9BA757004B7AF1 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		9621D7A81F9BA757004B7AF1 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		9621D7A91F9BA757004B7AF1 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		9621D7AA1F9BA757004B7AF1 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		9621D7AB1F9BA757004B7AF1 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		9621D7AC1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		9621D7AD1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		9621D7AF1F9BA757004B7AF1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		DF45B419C180AE12FDD89016 /* Pods-AYDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYDoctor/Pods-AYDoctor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -482,6 +536,7 @@
 		141A7C6E1F9ADE3300B9098E /* 3rdPart */ = {
 			isa = PBXGroup;
 			children = (
+				9621D78B1F9BA757004B7AF1 /* IQKeyboardManager */,
 				141A7D061F9AEA4200B9098E /* AFNetworking */,
 				141A7D381F9AEA4200B9098E /* FSCalendar */,
 				141A7D031F9AEA4200B9098E /* JYSlideSegmentController */,
@@ -865,6 +920,8 @@
 				141A7E1B1F9B445E00B9098E /* AYMineMainViewInputCell.h */,
 				141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */,
 				141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */,
+				9621D7861F9B8C10004B7AF1 /* AYSelectPickView.h */,
+				9621D7871F9B8C10004B7AF1 /* AYSelectPickView.m */,
 			);
 			path = AYMineMainView;
 			sourceTree = "<group>";
@@ -999,6 +1056,9 @@
 				141A7E0A1F9B344D00B9098E /* AYMineWorkingController.h */,
 				141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */,
 				141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */,
+				9621D7811F9B8121004B7AF1 /* AYMineSpecialityController.h */,
+				9621D7821F9B8121004B7AF1 /* AYMineSpecialityController.m */,
+				9621D7831F9B8121004B7AF1 /* AYMineSpecialityController.xib */,
 			);
 			path = AYMineController;
 			sourceTree = "<group>";
@@ -1036,6 +1096,84 @@
 				3A592E5301251C0DAB33296C /* libPods-AYDoctor.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9621D78B1F9BA757004B7AF1 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9621D78C1F9BA757004B7AF1 /* Categories */,
+				9621D7991F9BA757004B7AF1 /* Constants */,
+				9621D79C1F9BA757004B7AF1 /* IQKeyboardManager.h */,
+				9621D79D1F9BA757004B7AF1 /* IQKeyboardManager.m */,
+				9621D79E1F9BA757004B7AF1 /* IQKeyboardReturnKeyHandler.h */,
+				9621D79F1F9BA757004B7AF1 /* IQKeyboardReturnKeyHandler.m */,
+				9621D7A01F9BA757004B7AF1 /* IQTextView */,
+				9621D7A31F9BA757004B7AF1 /* IQToolbar */,
+				9621D7AE1F9BA757004B7AF1 /* Resources */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		9621D78C1F9BA757004B7AF1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9621D78D1F9BA757004B7AF1 /* IQNSArray+Sort.h */,
+				9621D78E1F9BA757004B7AF1 /* IQNSArray+Sort.m */,
+				9621D78F1F9BA757004B7AF1 /* IQUIScrollView+Additions.h */,
+				9621D7901F9BA757004B7AF1 /* IQUIScrollView+Additions.m */,
+				9621D7911F9BA757004B7AF1 /* IQUITextFieldView+Additions.h */,
+				9621D7921F9BA757004B7AF1 /* IQUITextFieldView+Additions.m */,
+				9621D7931F9BA757004B7AF1 /* IQUIView+Hierarchy.h */,
+				9621D7941F9BA757004B7AF1 /* IQUIView+Hierarchy.m */,
+				9621D7951F9BA757004B7AF1 /* IQUIViewController+Additions.h */,
+				9621D7961F9BA757004B7AF1 /* IQUIViewController+Additions.m */,
+				9621D7971F9BA757004B7AF1 /* IQUIWindow+Hierarchy.h */,
+				9621D7981F9BA757004B7AF1 /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9621D7991F9BA757004B7AF1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9621D79A1F9BA757004B7AF1 /* IQKeyboardManagerConstants.h */,
+				9621D79B1F9BA757004B7AF1 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9621D7A01F9BA757004B7AF1 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9621D7A11F9BA757004B7AF1 /* IQTextView.h */,
+				9621D7A21F9BA757004B7AF1 /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		9621D7A31F9BA757004B7AF1 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9621D7A41F9BA757004B7AF1 /* IQBarButtonItem.h */,
+				9621D7A51F9BA757004B7AF1 /* IQBarButtonItem.m */,
+				9621D7A61F9BA757004B7AF1 /* IQPreviousNextView.h */,
+				9621D7A71F9BA757004B7AF1 /* IQPreviousNextView.m */,
+				9621D7A81F9BA757004B7AF1 /* IQTitleBarButtonItem.h */,
+				9621D7A91F9BA757004B7AF1 /* IQTitleBarButtonItem.m */,
+				9621D7AA1F9BA757004B7AF1 /* IQToolbar.h */,
+				9621D7AB1F9BA757004B7AF1 /* IQToolbar.m */,
+				9621D7AC1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.h */,
+				9621D7AD1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		9621D7AE1F9BA757004B7AF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9621D7AF1F9BA757004B7AF1 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1153,12 +1291,14 @@
 				141A7E041F9B33A300B9098E /* AYChangPwdController.xib in Resources */,
 				141A7DB71F9AEA4300B9098E /* README.md in Resources */,
 				141A7DB61F9AEA4300B9098E /* LICENSE in Resources */,
+				9621D7BE1F9BA758004B7AF1 /* IQKeyboardManager.bundle in Resources */,
 				141A7D9F1F9AEA4300B9098E /* MJRefresh.bundle in Resources */,
 				141A7E1A1F9B444100B9098E /* AYMineMainViewNormalCell.xib in Resources */,
 				141A7DF71F9B2C3100B9098E /* AYMineInfoCell.xib in Resources */,
 				141A7DFC1F9B2C6E00B9098E /* AYMineWoringCell.xib in Resources */,
 				141A7DF11F9B1C7B00B9098E /* AYForgetPasswordController.xib in Resources */,
 				141A7E0E1F9B344D00B9098E /* AYMineWorkingController.xib in Resources */,
+				9621D7851F9B8121004B7AF1 /* AYMineSpecialityController.xib in Resources */,
 				141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */,
 				141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */,
 			);
@@ -1237,6 +1377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				141A7CBC1F9AE42900B9098E /* NSString+JKDictionaryValue.m in Sources */,
+				9621D7B41F9BA758004B7AF1 /* IQUIViewController+Additions.m in Sources */,
+				9621D7B11F9BA758004B7AF1 /* IQUIScrollView+Additions.m in Sources */,
 				141A7C6B1F9AD72700B9098E /* AYTabBarController.m in Sources */,
 				141A7D8E1F9AEA4300B9098E /* AFHTTPRequestOperation.m in Sources */,
 				141A7D991F9AEA4300B9098E /* UIAlertView+AFNetworking.m in Sources */,
@@ -1245,6 +1387,7 @@
 				141A7DBD1F9AEA4300B9098E /* SDWebImageDownloaderOperation.m in Sources */,
 				141A7DB11F9AEA4300B9098E /* FSCalendarStickyHeader.m in Sources */,
 				141A7E191F9B444100B9098E /* AYMineMainViewNormalCell.m in Sources */,
+				9621D7B31F9BA758004B7AF1 /* IQUIView+Hierarchy.m in Sources */,
 				141A7DAA1F9AEA4300B9098E /* FSCalendarCollectionViewLayout.m in Sources */,
 				141A7DA71F9AEA4300B9098E /* FSCalendarCalculator.m in Sources */,
 				141A7CC11F9AE42900B9098E /* Foundation+LogChinese.m in Sources */,
@@ -1257,6 +1400,7 @@
 				141A7D8D1F9AEA4300B9098E /* JYSlideSegmentController.m in Sources */,
 				141A7DA61F9AEA4300B9098E /* FSCalendarAppearance.m in Sources */,
 				141A7DB41F9AEA4300B9098E /* HUDNotificationCenter.m in Sources */,
+				9621D7B21F9BA758004B7AF1 /* IQUITextFieldView+Additions.m in Sources */,
 				141A7DAC1F9AEA4300B9098E /* FSCalendarDelegationFactory.m in Sources */,
 				141A7D981F9AEA4300B9098E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				141A7CDD1F9AE48700B9098E /* UIView+DG.m in Sources */,
@@ -1273,7 +1417,9 @@
 				141A7CB11F9AE42900B9098E /* CALayer+Anim.m in Sources */,
 				141A7DD01F9AF16200B9098E /* NTFileServiceShell.m in Sources */,
 				141A7CB51F9AE42900B9098E /* NSString+MD5Encrypt.m in Sources */,
+				9621D7BC1F9BA758004B7AF1 /* IQToolbar.m in Sources */,
 				141A7CBA1F9AE42900B9098E /* NSMutableAttributedString+Emotion.m in Sources */,
+				9621D7B01F9BA758004B7AF1 /* IQNSArray+Sort.m in Sources */,
 				141A7C791F9AE06A00B9098E /* AYLoginUser.m in Sources */,
 				141A7CDC1F9AE48700B9098E /* DGScrollerBar.m in Sources */,
 				141A7D8B1F9AEA4300B9098E /* View+MASAdditions.m in Sources */,
@@ -1286,6 +1432,7 @@
 				141A7DA01F9AEA4300B9098E /* MJRefreshBaseView.m in Sources */,
 				141A7DBF1F9AEA4300B9098E /* SDWebImagePrefetcher.m in Sources */,
 				141A7D941F9AEA4300B9098E /* AFURLRequestSerialization.m in Sources */,
+				9621D7B51F9BA758004B7AF1 /* IQUIWindow+Hierarchy.m in Sources */,
 				141A7DA91F9AEA4300B9098E /* FSCalendarCollectionView.m in Sources */,
 				141A7D881F9AEA4300B9098E /* MASViewConstraint.m in Sources */,
 				14D0874C1F99E4A000808A52 /* AYLoginViewController.m in Sources */,
@@ -1295,11 +1442,13 @@
 				141A7DAE1F9AEA4300B9098E /* FSCalendarExtensions.m in Sources */,
 				141A7D9E1F9AEA4300B9098E /* UIWebView+AFNetworking.m in Sources */,
 				141A7CBE1F9AE42900B9098E /* UIColor+HEX.m in Sources */,
+				9621D7BB1F9BA758004B7AF1 /* IQTitleBarButtonItem.m in Sources */,
 				141A7DF61F9B2C3100B9098E /* AYMineInfoCell.m in Sources */,
 				141A7DB31F9AEA4300B9098E /* FSCalendarWeekdayView.m in Sources */,
 				141A7C751F9ADEF200B9098E /* AYConst.m in Sources */,
 				141A7CBD1F9AE42900B9098E /* NSObject+Reflection.m in Sources */,
 				141A7CB91F9AE42900B9098E /* NSString+FileSize.m in Sources */,
+				9621D7B81F9BA758004B7AF1 /* IQTextView.m in Sources */,
 				141A7D841F9AEA4300B9098E /* MASConstraint.m in Sources */,
 				141A7CC51F9AE42900B9098E /* NSString+Trims.m in Sources */,
 				141A7D8A1F9AEA4300B9098E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -1315,13 +1464,16 @@
 				141A7DAF1F9AEA4300B9098E /* FSCalendarHeaderView.m in Sources */,
 				141A7DE31F9B0D6700B9098E /* AYDatabaseHelper.m in Sources */,
 				141A7D911F9AEA4300B9098E /* AFNetworkReachabilityManager.m in Sources */,
+				9621D7B71F9BA758004B7AF1 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				141A7CB41F9AE42900B9098E /* NSDictionary+null.m in Sources */,
 				141A7DC31F9AEA4300B9098E /* UIImageView+HighlightedWebCache.m in Sources */,
+				9621D7BD1F9BA758004B7AF1 /* IQUIView+IQKeyboardToolbar.m in Sources */,
 				141A7DBB1F9AEA4300B9098E /* SDWebImageDecoder.m in Sources */,
 				141A7DFB1F9B2C6E00B9098E /* AYMineWoringCell.m in Sources */,
 				141A7DC11F9AEA4300B9098E /* UIImage+GIF.m in Sources */,
 				141A7D9B1F9AEA4300B9098E /* UIImageView+AFNetworking.m in Sources */,
 				141A7DB81F9AEA4300B9098E /* NSData+ImageContentType.m in Sources */,
+				9621D7841F9B8121004B7AF1 /* AYMineSpecialityController.m in Sources */,
 				141A7D831F9AEA4300B9098E /* MASCompositeConstraint.m in Sources */,
 				141A7DAD1F9AEA4300B9098E /* FSCalendarDelegationProxy.m in Sources */,
 				141A7DB01F9AEA4300B9098E /* FSCalendarScopeHandle.m in Sources */,
@@ -1329,14 +1481,18 @@
 				141A7CDE1F9AE48700B9098E /* UIViewController+BackButtonHandler.m in Sources */,
 				141A7DC41F9AEA4300B9098E /* UIImageView+WebCache.m in Sources */,
 				141A7D851F9AEA4300B9098E /* MASConstraintMaker.m in Sources */,
+				9621D7B91F9BA758004B7AF1 /* IQBarButtonItem.m in Sources */,
 				141A7CB01F9AE42900B9098E /* NSDate+NTExtension.m in Sources */,
+				9621D7881F9B8C10004B7AF1 /* AYSelectPickView.m in Sources */,
 				141A7CBF1F9AE42900B9098E /* NSString+Matcher.m in Sources */,
 				141A7CC71F9AE42900B9098E /* NSString+URLEncodingAdditions.m in Sources */,
 				141A7E141F9B442900B9098E /* AYMineMainViewAvataCell.m in Sources */,
+				9621D7B61F9BA758004B7AF1 /* IQKeyboardManager.m in Sources */,
 				141A7DCB1F9AF05200B9098E /* NTServiceShell.m in Sources */,
 				141A7CC61F9AE42900B9098E /* UIView+SWExtension.m in Sources */,
 				141A7DB21F9AEA4300B9098E /* FSCalendarTransitionCoordinator.m in Sources */,
 				141A7D901F9AEA4300B9098E /* AFHTTPSessionManager.m in Sources */,
+				9621D7BA1F9BA758004B7AF1 /* IQPreviousNextView.m in Sources */,
 				141A7CC01F9AE42900B9098E /* UIWebView+ExportHTML.m in Sources */,
 				141A7D961F9AEA4300B9098E /* AFURLSessionManager.m in Sources */,
 				141A7D931F9AEA4300B9098E /* AFURLConnectionOperation.m in Sources */,

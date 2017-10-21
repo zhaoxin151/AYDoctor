@@ -102,14 +102,17 @@
     if(indexPath.section == 0){
         //跳转到个人主页
         AYMineInfoController *mineInfoVC = [[AYMineInfoController alloc] init];
+        mineInfoVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:mineInfoVC animated:YES];
     }else if (indexPath.section == 2) {
         //修改密码
         AYChangPwdController *changPwdVC = [[AYChangPwdController alloc] init];
+        changPwdVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:changPwdVC animated:YES];
     }else if (indexPath.section == 3) {
         //关于我们
         AYAboutUsController *aboutUsVC = [[AYAboutUsController alloc] init];
+        aboutUsVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:aboutUsVC animated:YES];
     }
 }
@@ -140,12 +143,14 @@
 //我的主页按钮点击事件
 - (void)myInfoBtnHandler:(UIButton *)btn {
     AYMineInfoController *mineInfoVC = [[AYMineInfoController alloc] init];
+    mineInfoVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:mineInfoVC animated:YES];
 }
 
 //我的日程表按钮点击事件
 - (void)myWorkingBtnHandler:(UIButton *)btn {
     AYMineWorkingController *myWorkVC = [[AYMineWorkingController alloc] init];
+    myWorkVC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:myWorkVC animated:YES];
 }
 
