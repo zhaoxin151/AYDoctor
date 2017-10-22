@@ -161,6 +161,12 @@
 		9621D7C41F9C2AFD004B7AF1 /* AYWeekSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7C21F9C2AFD004B7AF1 /* AYWeekSelectCell.xib */; };
 		9621D7C71F9C2F4B004B7AF1 /* AYReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7C61F9C2F4B004B7AF1 /* AYReminderView.m */; };
 		9621D7CA1F9C3ACC004B7AF1 /* AYPersonNumberPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7C91F9C3ACC004B7AF1 /* AYPersonNumberPickView.m */; };
+		9621D7D01F9CCA10004B7AF1 /* AYTotalNumShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7CE1F9CCA10004B7AF1 /* AYTotalNumShowCell.m */; };
+		9621D7D11F9CCA10004B7AF1 /* AYTotalNumShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7CF1F9CCA10004B7AF1 /* AYTotalNumShowCell.xib */; };
+		9621D7D51F9CD59D004B7AF1 /* AYPatientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7D31F9CD59D004B7AF1 /* AYPatientCell.m */; };
+		9621D7D61F9CD59D004B7AF1 /* AYPatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7D41F9CD59D004B7AF1 /* AYPatientCell.xib */; };
+		9621D7DA1F9CD769004B7AF1 /* AYUnwritePatientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7D81F9CD769004B7AF1 /* AYUnwritePatientCell.m */; };
+		9621D7DB1F9CD769004B7AF1 /* AYUnwritePatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7D91F9CD769004B7AF1 /* AYUnwritePatientCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -488,6 +494,15 @@
 		9621D7C61F9C2F4B004B7AF1 /* AYReminderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYReminderView.m; sourceTree = "<group>"; };
 		9621D7C81F9C3ACC004B7AF1 /* AYPersonNumberPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPersonNumberPickView.h; sourceTree = "<group>"; };
 		9621D7C91F9C3ACC004B7AF1 /* AYPersonNumberPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYPersonNumberPickView.m; sourceTree = "<group>"; };
+		9621D7CD1F9CCA10004B7AF1 /* AYTotalNumShowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYTotalNumShowCell.h; sourceTree = "<group>"; };
+		9621D7CE1F9CCA10004B7AF1 /* AYTotalNumShowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYTotalNumShowCell.m; sourceTree = "<group>"; };
+		9621D7CF1F9CCA10004B7AF1 /* AYTotalNumShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYTotalNumShowCell.xib; sourceTree = "<group>"; };
+		9621D7D21F9CD59D004B7AF1 /* AYPatientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPatientCell.h; sourceTree = "<group>"; };
+		9621D7D31F9CD59D004B7AF1 /* AYPatientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYPatientCell.m; sourceTree = "<group>"; };
+		9621D7D41F9CD59D004B7AF1 /* AYPatientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYPatientCell.xib; sourceTree = "<group>"; };
+		9621D7D71F9CD769004B7AF1 /* AYUnwritePatientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYUnwritePatientCell.h; sourceTree = "<group>"; };
+		9621D7D81F9CD769004B7AF1 /* AYUnwritePatientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYUnwritePatientCell.m; sourceTree = "<group>"; };
+		9621D7D91F9CD769004B7AF1 /* AYUnwritePatientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYUnwritePatientCell.xib; sourceTree = "<group>"; };
 		DF45B419C180AE12FDD89016 /* Pods-AYDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYDoctor/Pods-AYDoctor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1013,6 +1028,8 @@
 		14D087441F99DED300808A52 /* AYView */ = {
 			isa = PBXGroup;
 			children = (
+				9621D7CB1F9CC9C0004B7AF1 /* AYMainView */,
+				9621D7CC1F9CC9C0004B7AF1 /* AYScheduleView */,
 				141A7DF21F9B2BD000B9098E /* AYMineView */,
 				141A7DE61F9B124A00B9098E /* AYLoginView */,
 			);
@@ -1191,6 +1208,29 @@
 			path = AYMineWorkingView;
 			sourceTree = "<group>";
 		};
+		9621D7CB1F9CC9C0004B7AF1 /* AYMainView */ = {
+			isa = PBXGroup;
+			children = (
+				9621D7CD1F9CCA10004B7AF1 /* AYTotalNumShowCell.h */,
+				9621D7CE1F9CCA10004B7AF1 /* AYTotalNumShowCell.m */,
+				9621D7CF1F9CCA10004B7AF1 /* AYTotalNumShowCell.xib */,
+				9621D7D21F9CD59D004B7AF1 /* AYPatientCell.h */,
+				9621D7D31F9CD59D004B7AF1 /* AYPatientCell.m */,
+				9621D7D41F9CD59D004B7AF1 /* AYPatientCell.xib */,
+				9621D7D71F9CD769004B7AF1 /* AYUnwritePatientCell.h */,
+				9621D7D81F9CD769004B7AF1 /* AYUnwritePatientCell.m */,
+				9621D7D91F9CD769004B7AF1 /* AYUnwritePatientCell.xib */,
+			);
+			path = AYMainView;
+			sourceTree = "<group>";
+		};
+		9621D7CC1F9CC9C0004B7AF1 /* AYScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AYScheduleView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1313,9 +1353,12 @@
 				141A7DF71F9B2C3100B9098E /* AYMineInfoCell.xib in Resources */,
 				141A7DFC1F9B2C6E00B9098E /* AYMineWoringCell.xib in Resources */,
 				141A7DF11F9B1C7B00B9098E /* AYForgetPasswordController.xib in Resources */,
+				9621D7D61F9CD59D004B7AF1 /* AYPatientCell.xib in Resources */,
 				9621D7851F9B8121004B7AF1 /* AYMineSpecialityController.xib in Resources */,
 				141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */,
+				9621D7D11F9CCA10004B7AF1 /* AYTotalNumShowCell.xib in Resources */,
 				141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */,
+				9621D7DB1F9CD769004B7AF1 /* AYUnwritePatientCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1413,6 +1456,7 @@
 				141A7E031F9B33A300B9098E /* AYChangPwdController.m in Sources */,
 				141A7D971F9AEA4300B9098E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				141A7D8D1F9AEA4300B9098E /* JYSlideSegmentController.m in Sources */,
+				9621D7D01F9CCA10004B7AF1 /* AYTotalNumShowCell.m in Sources */,
 				141A7DA61F9AEA4300B9098E /* FSCalendarAppearance.m in Sources */,
 				141A7DB41F9AEA4300B9098E /* HUDNotificationCenter.m in Sources */,
 				9621D7B21F9BA758004B7AF1 /* IQUITextFieldView+Additions.m in Sources */,
@@ -1474,6 +1518,7 @@
 				141A7E081F9B33DA00B9098E /* AYAboutUsController.m in Sources */,
 				141A7CC31F9AE42900B9098E /* UIImageView+JKAddition.m in Sources */,
 				141A7DC61F9AEA4300B9098E /* HBKeyChainHelper.m in Sources */,
+				9621D7DA1F9CD769004B7AF1 /* AYUnwritePatientCell.m in Sources */,
 				14D087121F99DC8D00808A52 /* AppDelegate.m in Sources */,
 				141A7D861F9AEA4300B9098E /* MASLayoutConstraint.m in Sources */,
 				141A7DBE1F9AEA4300B9098E /* SDWebImageManager.m in Sources */,
@@ -1516,6 +1561,7 @@
 				141A7D931F9AEA4300B9098E /* AFURLConnectionOperation.m in Sources */,
 				141A7D8C1F9AEA4300B9098E /* ViewController+MASAdditions.m in Sources */,
 				141A7D8F1F9AEA4300B9098E /* AFHTTPRequestOperationManager.m in Sources */,
+				9621D7D51F9CD59D004B7AF1 /* AYPatientCell.m in Sources */,
 				141A7DEC1F9B13F200B9098E /* AlertViewShow.m in Sources */,
 				141A7CB81F9AE42900B9098E /* UIImage+Color.m in Sources */,
 				141A7DAB1F9AEA4300B9098E /* FSCalendarConstants.m in Sources */,

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" id="KGk-i7-Jjw" customClass="AYUnwritePatientCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ped-vl-zpR">
+                        <rect key="frame" x="15" y="10" width="25" height="25"/>
+                        <color key="backgroundColor" red="0.74370829549999995" green="0.92132831680000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="5qa-Fc-VFA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未填写就诊结果的患者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kqA-Tq-IR5">
+                        <rect key="frame" x="48" y="12" width="174" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqA-Zk-rmj">
+                        <rect key="frame" x="247" y="6" width="40" height="30"/>
+                        <color key="backgroundColor" red="0.32991071430000002" green="0.72661830360000002" blue="0.2479073661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="R6v-zL-Vkt"/>
+                        </constraints>
+                        <state key="normal" title="6">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ped-vl-zpR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="7V8-9w-4gs"/>
+                    <constraint firstItem="kqA-Tq-IR5" firstAttribute="leading" secondItem="ped-vl-zpR" secondAttribute="trailing" constant="8" symbolic="YES" id="FHi-zJ-ipY"/>
+                    <constraint firstItem="ped-vl-zpR" firstAttribute="centerY" secondItem="kqA-Tq-IR5" secondAttribute="centerY" id="HgD-XW-QpB"/>
+                    <constraint firstItem="kqA-Tq-IR5" firstAttribute="firstBaseline" secondItem="zqA-Zk-rmj" secondAttribute="firstBaseline" id="PIv-GB-aqd"/>
+                    <constraint firstItem="zqA-Zk-rmj" firstAttribute="leading" secondItem="kqA-Tq-IR5" secondAttribute="trailing" constant="25" id="XIt-Rd-eRu"/>
+                    <constraint firstItem="zqA-Zk-rmj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ead-vZ-aPx"/>
+                    <constraint firstItem="ped-vl-zpR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="mWn-vn-a0C"/>
+                    <constraint firstItem="ped-vl-zpR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ugM-7l-zfu"/>
+                    <constraint firstAttribute="trailing" secondItem="zqA-Zk-rmj" secondAttribute="trailing" id="xKd-4y-G5w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="unWriteNum" destination="zqA-Zk-rmj" id="5WT-3t-htc"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>
