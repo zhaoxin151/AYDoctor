@@ -123,7 +123,6 @@
 		141A7E081F9B33DA00B9098E /* AYAboutUsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E061F9B33DA00B9098E /* AYAboutUsController.m */; };
 		141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */; };
 		141A7E0D1F9B344D00B9098E /* AYMineWorkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */; };
-		141A7E0E1F9B344D00B9098E /* AYMineWorkingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */; };
 		141A7E141F9B442900B9098E /* AYMineMainViewAvataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E121F9B442900B9098E /* AYMineMainViewAvataCell.m */; };
 		141A7E151F9B442900B9098E /* AYMineMainViewAvataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E131F9B442900B9098E /* AYMineMainViewAvataCell.xib */; };
 		141A7E191F9B444100B9098E /* AYMineMainViewNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E171F9B444100B9098E /* AYMineMainViewNormalCell.m */; };
@@ -158,6 +157,10 @@
 		9621D7BC1F9BA758004B7AF1 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7AB1F9BA757004B7AF1 /* IQToolbar.m */; };
 		9621D7BD1F9BA758004B7AF1 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7AD1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.m */; };
 		9621D7BE1F9BA758004B7AF1 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7AF1F9BA757004B7AF1 /* IQKeyboardManager.bundle */; };
+		9621D7C31F9C2AFD004B7AF1 /* AYWeekSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7C11F9C2AFD004B7AF1 /* AYWeekSelectCell.m */; };
+		9621D7C41F9C2AFD004B7AF1 /* AYWeekSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9621D7C21F9C2AFD004B7AF1 /* AYWeekSelectCell.xib */; };
+		9621D7C71F9C2F4B004B7AF1 /* AYReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7C61F9C2F4B004B7AF1 /* AYReminderView.m */; };
+		9621D7CA1F9C3ACC004B7AF1 /* AYPersonNumberPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9621D7C91F9C3ACC004B7AF1 /* AYPersonNumberPickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -411,7 +414,6 @@
 		141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYAboutUsController.xib; sourceTree = "<group>"; };
 		141A7E0A1F9B344D00B9098E /* AYMineWorkingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineWorkingController.h; sourceTree = "<group>"; };
 		141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineWorkingController.m; sourceTree = "<group>"; };
-		141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineWorkingController.xib; sourceTree = "<group>"; };
 		141A7E111F9B442900B9098E /* AYMineMainViewAvataCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineMainViewAvataCell.h; sourceTree = "<group>"; };
 		141A7E121F9B442900B9098E /* AYMineMainViewAvataCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineMainViewAvataCell.m; sourceTree = "<group>"; };
 		141A7E131F9B442900B9098E /* AYMineMainViewAvataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineMainViewAvataCell.xib; sourceTree = "<group>"; };
@@ -479,6 +481,13 @@
 		9621D7AC1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
 		9621D7AD1F9BA757004B7AF1 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
 		9621D7AF1F9BA757004B7AF1 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9621D7C01F9C2AFD004B7AF1 /* AYWeekSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYWeekSelectCell.h; sourceTree = "<group>"; };
+		9621D7C11F9C2AFD004B7AF1 /* AYWeekSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYWeekSelectCell.m; sourceTree = "<group>"; };
+		9621D7C21F9C2AFD004B7AF1 /* AYWeekSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYWeekSelectCell.xib; sourceTree = "<group>"; };
+		9621D7C51F9C2F4B004B7AF1 /* AYReminderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYReminderView.h; sourceTree = "<group>"; };
+		9621D7C61F9C2F4B004B7AF1 /* AYReminderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYReminderView.m; sourceTree = "<group>"; };
+		9621D7C81F9C3ACC004B7AF1 /* AYPersonNumberPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPersonNumberPickView.h; sourceTree = "<group>"; };
+		9621D7C91F9C3ACC004B7AF1 /* AYPersonNumberPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYPersonNumberPickView.m; sourceTree = "<group>"; };
 		DF45B419C180AE12FDD89016 /* Pods-AYDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AYDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AYDoctor/Pods-AYDoctor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -896,7 +905,7 @@
 		141A7DF21F9B2BD000B9098E /* AYMineView */ = {
 			isa = PBXGroup;
 			children = (
-				141A7E101F9B43F500B9098E /* AYMineWorkingView */,
+				9621D7BF1F9C2A8E004B7AF1 /* AYMineWorkingView */,
 				141A7E0F1F9B43CE00B9098E /* AYMineMainView */,
 				141A7DF31F9B2C3100B9098E /* AYMineInfoCell.h */,
 				141A7DF41F9B2C3100B9098E /* AYMineInfoCell.m */,
@@ -924,13 +933,6 @@
 				9621D7871F9B8C10004B7AF1 /* AYSelectPickView.m */,
 			);
 			path = AYMineMainView;
-			sourceTree = "<group>";
-		};
-		141A7E101F9B43F500B9098E /* AYMineWorkingView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AYMineWorkingView;
 			sourceTree = "<group>";
 		};
 		14D087041F99DC8C00808A52 = {
@@ -1055,7 +1057,6 @@
 				141A7E071F9B33DA00B9098E /* AYAboutUsController.xib */,
 				141A7E0A1F9B344D00B9098E /* AYMineWorkingController.h */,
 				141A7E0B1F9B344D00B9098E /* AYMineWorkingController.m */,
-				141A7E0C1F9B344D00B9098E /* AYMineWorkingController.xib */,
 				9621D7811F9B8121004B7AF1 /* AYMineSpecialityController.h */,
 				9621D7821F9B8121004B7AF1 /* AYMineSpecialityController.m */,
 				9621D7831F9B8121004B7AF1 /* AYMineSpecialityController.xib */,
@@ -1176,6 +1177,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		9621D7BF1F9C2A8E004B7AF1 /* AYMineWorkingView */ = {
+			isa = PBXGroup;
+			children = (
+				9621D7C01F9C2AFD004B7AF1 /* AYWeekSelectCell.h */,
+				9621D7C11F9C2AFD004B7AF1 /* AYWeekSelectCell.m */,
+				9621D7C21F9C2AFD004B7AF1 /* AYWeekSelectCell.xib */,
+				9621D7C51F9C2F4B004B7AF1 /* AYReminderView.h */,
+				9621D7C61F9C2F4B004B7AF1 /* AYReminderView.m */,
+				9621D7C81F9C3ACC004B7AF1 /* AYPersonNumberPickView.h */,
+				9621D7C91F9C3ACC004B7AF1 /* AYPersonNumberPickView.m */,
+			);
+			path = AYMineWorkingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1291,13 +1306,13 @@
 				141A7E041F9B33A300B9098E /* AYChangPwdController.xib in Resources */,
 				141A7DB71F9AEA4300B9098E /* README.md in Resources */,
 				141A7DB61F9AEA4300B9098E /* LICENSE in Resources */,
+				9621D7C41F9C2AFD004B7AF1 /* AYWeekSelectCell.xib in Resources */,
 				9621D7BE1F9BA758004B7AF1 /* IQKeyboardManager.bundle in Resources */,
 				141A7D9F1F9AEA4300B9098E /* MJRefresh.bundle in Resources */,
 				141A7E1A1F9B444100B9098E /* AYMineMainViewNormalCell.xib in Resources */,
 				141A7DF71F9B2C3100B9098E /* AYMineInfoCell.xib in Resources */,
 				141A7DFC1F9B2C6E00B9098E /* AYMineWoringCell.xib in Resources */,
 				141A7DF11F9B1C7B00B9098E /* AYForgetPasswordController.xib in Resources */,
-				141A7E0E1F9B344D00B9098E /* AYMineWorkingController.xib in Resources */,
 				9621D7851F9B8121004B7AF1 /* AYMineSpecialityController.xib in Resources */,
 				141A7E091F9B33DA00B9098E /* AYAboutUsController.xib in Resources */,
 				141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */,
@@ -1402,11 +1417,13 @@
 				141A7DB41F9AEA4300B9098E /* HUDNotificationCenter.m in Sources */,
 				9621D7B21F9BA758004B7AF1 /* IQUITextFieldView+Additions.m in Sources */,
 				141A7DAC1F9AEA4300B9098E /* FSCalendarDelegationFactory.m in Sources */,
+				9621D7C31F9C2AFD004B7AF1 /* AYWeekSelectCell.m in Sources */,
 				141A7D981F9AEA4300B9098E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				141A7CDD1F9AE48700B9098E /* UIView+DG.m in Sources */,
 				141A7D921F9AEA4300B9098E /* AFSecurityPolicy.m in Sources */,
 				141A7E0D1F9B344D00B9098E /* AYMineWorkingController.m in Sources */,
 				14D087551F99E50400808A52 /* AYScheduleController.m in Sources */,
+				9621D7C71F9C2F4B004B7AF1 /* AYReminderView.m in Sources */,
 				141A7CC41F9AE42900B9098E /* NSString+DG.m in Sources */,
 				141A7DC21F9AEA4300B9098E /* UIImage+MultiFormat.m in Sources */,
 				141A7CBB1F9AE42900B9098E /* UIBarButtonItem+SWExtension.m in Sources */,
@@ -1446,6 +1463,7 @@
 				141A7DF61F9B2C3100B9098E /* AYMineInfoCell.m in Sources */,
 				141A7DB31F9AEA4300B9098E /* FSCalendarWeekdayView.m in Sources */,
 				141A7C751F9ADEF200B9098E /* AYConst.m in Sources */,
+				9621D7CA1F9C3ACC004B7AF1 /* AYPersonNumberPickView.m in Sources */,
 				141A7CBD1F9AE42900B9098E /* NSObject+Reflection.m in Sources */,
 				141A7CB91F9AE42900B9098E /* NSString+FileSize.m in Sources */,
 				9621D7B81F9BA758004B7AF1 /* IQTextView.m in Sources */,
