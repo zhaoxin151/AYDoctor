@@ -26,6 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"我的排班表";
     [self setupTableView];
 }
 
@@ -92,7 +93,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if(indexPath.section == 0) {
-        return 80.0f;
+        return 313.0f;
     }else {
         return 44.0f;
     }
@@ -102,7 +103,7 @@
     if(section == 0 || section == 1){
         return 44;
     }else {
-        return 20;
+        return 15;
     }
 }
 
@@ -113,6 +114,46 @@
     return 1;
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    if(section == 0) {
+        UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, 44)];
+        backView.backgroundColor = [UIColor clearColor];
+        UILabel *headLabel = [[UILabel alloc] initWithFrame:CGRectMake(15, 20, 200, 20)];
+        headLabel.text = @"请设定您的周排班表";
+        headLabel.textColor = [UIColor blackColor];
+        headLabel.font = [UIFont systemFontOfSize:14.0f];
+        [backView addSubview:headLabel];
+        return backView;
+    }else if (section == 1) {
+        UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, 44)];
+        backView.backgroundColor = [UIColor clearColor];
+        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, 1)];
+        lineView.backgroundColor = [UIColor grayColor];
+        [backView addSubview:lineView];
+        UILabel *footLabel = [[UILabel alloc] initWithFrame:CGRectMake(15, 20, 250, 20)];
+        footLabel.text = @"请设定您每天的接诊人数";
+        footLabel.textColor = [UIColor blackColor];
+        footLabel.font = [UIFont systemFontOfSize:14.0f];
+        [backView addSubview:footLabel];
+        return backView;
+    }
+    return nil;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    if(section == 0) {
+        UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, 44)];
+        backView.backgroundColor = [UIColor clearColor];
+        UILabel *footLabel = [[UILabel alloc] initWithFrame:CGRectMake(15, 6, 250, 20)];
+        footLabel.text = @"更新排班表不影响已成功预约的日程";
+        footLabel.textColor = [UIColor blackColor];
+        footLabel.font = [UIFont systemFontOfSize:14.0f];
+        [backView addSubview:footLabel];
+        return backView;
+    }
+    return nil;
+}
+
 #pragma mark -- Private Method
 - (void)selectPersonNumberPickViewWithAM:(BOOL)isAM {
     AYWeakself;
@@ -120,9 +161,9 @@
     selectPickView.frame = CGRectMake(0, DEVICEHIGHT - 300, self.view.frame.size.width, 300);
     [selectPickView setDatePickComplet:^(NSInteger selectIndex) {
         if(isAM){
-            self.amIndex = selectIndex;
+            self.amIndex = selectIndex+1;
         }else {
-            self.pmIndex = selectIndex;
+            self.pmIndex = selectIndex+1;
         }
         [weakself.tableView reloadData];
     }];
