@@ -7,8 +7,13 @@
 //
 
 #import "AYScheduleController.h"
+#import "AYScheduleCalendarCell.h"
+#import "AYPatientCell.h"
+#import "AYPatientDetailController.h"
 
-@interface AYScheduleController ()<UITableViewDelegate, UITableViewDataSource,UISearchBarDelegate,UISearchResultsUpdating>
+#define PATIENTCELL     @"patientCell"
+#define SCHEDULECALENDARCELL @"scheduleCalendarCell"
+@interface AYScheduleController ()<UITableViewDelegate, UITableViewDataSource,UISearchBarDelegate,UISearchResultsUpdating, AYScheduleCalendarCellDelegate>
 
 @property (nonatomic, strong)UITableView *tableView;
 @property (nonatomic , strong)NSMutableArray *searchResult;
@@ -49,6 +54,9 @@
     UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICEWIDTH, 1)];
     self.tableView.tableFooterView = footerView;
     
+    [self.tableView registerClass:[AYScheduleCalendarCell class] forCellReuseIdentifier:SCHEDULECALENDARCELL];
+    [self.tableView registerNib:[UINib nibWithNibName:@"AYPatientCell" bundle:nil] forCellReuseIdentifier:PATIENTCELL];
+    
 }
 
 -(void)setUpSearchBar
@@ -88,46 +96,56 @@
 
 #pragma mark -- UITableViewDatasource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
+    return 2;
 }
 
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    if(section == 0){
+        return 1;
+    }else {
+        return 3;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if(indexPath.section == 0) {
-        return nil;
+        AYScheduleCalendarCell *calendarCell = [tableView dequeueReusableCellWithIdentifier:SCHEDULECALENDARCELL forIndexPath:indexPath];
+        calendarCell.delegate = self;
+        calendarCell.selectionStyle = UITableViewCellSelectionStyleNone;
+        return calendarCell;
     }else {
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-        if(!cell) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        }
-        if(indexPath.section == 2){
-            cell.textLabel.text = @"修改密码";
-        }else {
-            cell.textLabel.text = @"关于我们";
-        }
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        return cell;
+        AYPatientCell *patientCell = [tableView dequeueReusableCellWithIdentifier:PATIENTCELL forIndexPath:indexPath];
+        return patientCell;
     }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    if(indexPath.section == 1) {
+        //患者信息
+        AYPatientDetailController *patientDetailCR = [[AYPatientDetailController alloc] init];
+        patientDetailCR.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:patientDetailCR animated:YES];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if(indexPath.section == 0) {
-        return 80.0f;
+        return 300.0f;
     }else {
-        return 44.0f;
+        return 66.0f;
     }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 20.f;
+    if(section == 1) {
+        return 10;
+    }
+    return 0.1f;
+}
+
+#pragma mark -- AYScheduleCalendarCellDelegate
+- (void)scheduleCanlendarSelectDayWithTimeInterval:(NSTimeInterval)dateInterval {
+    //选择的时间
 }
 
 #pragma mark -- UISearchResultsUpdating

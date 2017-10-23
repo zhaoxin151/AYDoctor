@@ -13,6 +13,8 @@
 #import "AYTotalNumShowCell.h"
 #import "AYUnwritePatientCell.h"
 #import "AYPatientCell.h"
+#import "AYUnWritePatientController.h"
+#import "AYPatientDetailController.h"
 
 #define AYTOTALSHOWCELL @"totalNumShowCell"
 #define MINEWORKINGCELL @"myWorkingCell"
@@ -51,7 +53,7 @@
     self.tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.tableView.estimatedSectionHeaderHeight = 1.0f;
+    self.tableView.estimatedSectionHeaderHeight = 0.0f;
     self.tableView.estimatedRowHeight = 0.0f;
     [self.view addSubview:self.tableView];
     
@@ -127,7 +129,17 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    if(indexPath.section == 2){
+        //未填写就诊患者
+        AYUnWritePatientController *unWritePatientCR = [[AYUnWritePatientController alloc] init];
+        unWritePatientCR.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:unWritePatientCR animated:YES];
+    }else if (indexPath.section == 3) {
+        //患者信息
+        AYPatientDetailController *patientDetailCR = [[AYPatientDetailController alloc] init];
+        patientDetailCR.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:patientDetailCR animated:YES];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

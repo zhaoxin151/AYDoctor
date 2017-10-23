@@ -40,6 +40,7 @@
     _scheduleVC.title  = @"日程";
     _mineVC.title      = @"我的";
     
+    self.tabBar.tintColor = naviBarAndButtonColor;
     _mainVC.tabBarItem.image = [[UIImage imageNamed:@"AY_TabBar_Main"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     _scheduleVC.tabBarItem.image = [[UIImage imageNamed:@"AY_TabBar_Schedule"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];;
     _mineVC.tabBarItem.image = [[UIImage imageNamed:@"AY_TabBar_Mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

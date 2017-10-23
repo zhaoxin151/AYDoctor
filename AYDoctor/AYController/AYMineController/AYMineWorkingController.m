@@ -28,6 +28,7 @@
     [super viewDidLoad];
     self.title = @"我的排班表";
     [self setupTableView];
+    [self setupNaviBar];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,6 +52,11 @@
     
     [self.tableView registerNib:[UINib nibWithNibName:@"AYWeekSelectCell" bundle:nil] forCellReuseIdentifier:AYWEEKSELECTCELL];
     [self.tableView registerNib:[UINib nibWithNibName:@"AYMineMainViewNormalCell" bundle:nil] forCellReuseIdentifier:AYNORMALCELL];
+}
+
+- (void)setupNaviBar {
+    UIBarButtonItem *saveBtn = [[UIBarButtonItem alloc] initWithTitle:@"保存" style:UIBarButtonItemStylePlain target:self action:@selector(saveWorkingHandler:)];
+    self.navigationItem.rightBarButtonItem = saveBtn;
 }
 
 #pragma mark -- UITableViewDatasource
@@ -167,6 +173,11 @@
         }
         [weakself.tableView reloadData];
     }];
+}
+
+#pragma mark -- 保存
+- (void)saveWorkingHandler:(UIBarButtonItem *)sender {
+    
 }
 
 @end

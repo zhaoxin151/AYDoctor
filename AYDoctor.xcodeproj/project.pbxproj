@@ -129,6 +129,9 @@
 		141A7E1A1F9B444100B9098E /* AYMineMainViewNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E181F9B444100B9098E /* AYMineMainViewNormalCell.xib */; };
 		141A7E1E1F9B445E00B9098E /* AYMineMainViewInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */; };
 		141A7E1F1F9B445E00B9098E /* AYMineMainViewInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */; };
+		141A7E221F9D7FE600B9098E /* AYUnWritePatientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E211F9D7FE600B9098E /* AYUnWritePatientController.m */; };
+		141A7E251F9D7FFE00B9098E /* AYPatientDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E241F9D7FFE00B9098E /* AYPatientDetailController.m */; };
+		141A7E291F9D8F1F00B9098E /* AYScheduleCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141A7E281F9D8F1F00B9098E /* AYScheduleCalendarCell.m */; };
 		14D087121F99DC8D00808A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D087111F99DC8D00808A52 /* AppDelegate.m */; };
 		14D0871A1F99DC8D00808A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D087191F99DC8D00808A52 /* Assets.xcassets */; };
 		14D087201F99DC8D00808A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D0871F1F99DC8D00808A52 /* main.m */; };
@@ -429,6 +432,12 @@
 		141A7E1B1F9B445E00B9098E /* AYMineMainViewInputCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMineMainViewInputCell.h; sourceTree = "<group>"; };
 		141A7E1C1F9B445E00B9098E /* AYMineMainViewInputCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYMineMainViewInputCell.m; sourceTree = "<group>"; };
 		141A7E1D1F9B445E00B9098E /* AYMineMainViewInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AYMineMainViewInputCell.xib; sourceTree = "<group>"; };
+		141A7E201F9D7FE600B9098E /* AYUnWritePatientController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYUnWritePatientController.h; sourceTree = "<group>"; };
+		141A7E211F9D7FE600B9098E /* AYUnWritePatientController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYUnWritePatientController.m; sourceTree = "<group>"; };
+		141A7E231F9D7FFE00B9098E /* AYPatientDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYPatientDetailController.h; sourceTree = "<group>"; };
+		141A7E241F9D7FFE00B9098E /* AYPatientDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYPatientDetailController.m; sourceTree = "<group>"; };
+		141A7E271F9D8F1F00B9098E /* AYScheduleCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYScheduleCalendarCell.h; sourceTree = "<group>"; };
+		141A7E281F9D8F1F00B9098E /* AYScheduleCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYScheduleCalendarCell.m; sourceTree = "<group>"; };
 		14D0870D1F99DC8D00808A52 /* AYDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D087101F99DC8D00808A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14D087111F99DC8D00808A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -950,6 +959,15 @@
 			path = AYMineMainView;
 			sourceTree = "<group>";
 		};
+		141A7E261F9D8EC700B9098E /* AYScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				141A7E271F9D8F1F00B9098E /* AYScheduleCalendarCell.h */,
+				141A7E281F9D8F1F00B9098E /* AYScheduleCalendarCell.m */,
+			);
+			path = AYScheduleView;
+			sourceTree = "<group>";
+		};
 		14D087041F99DC8C00808A52 = {
 			isa = PBXGroup;
 			children = (
@@ -1028,8 +1046,8 @@
 		14D087441F99DED300808A52 /* AYView */ = {
 			isa = PBXGroup;
 			children = (
+				141A7E261F9D8EC700B9098E /* AYScheduleView */,
 				9621D7CB1F9CC9C0004B7AF1 /* AYMainView */,
-				9621D7CC1F9CC9C0004B7AF1 /* AYScheduleView */,
 				141A7DF21F9B2BD000B9098E /* AYMineView */,
 				141A7DE61F9B124A00B9098E /* AYLoginView */,
 			);
@@ -1095,6 +1113,10 @@
 			children = (
 				14D0874D1F99E4DD00808A52 /* AYMainController.h */,
 				14D0874E1F99E4DD00808A52 /* AYMainController.m */,
+				141A7E201F9D7FE600B9098E /* AYUnWritePatientController.h */,
+				141A7E211F9D7FE600B9098E /* AYUnWritePatientController.m */,
+				141A7E231F9D7FFE00B9098E /* AYPatientDetailController.h */,
+				141A7E241F9D7FFE00B9098E /* AYPatientDetailController.m */,
 			);
 			path = AYMainController;
 			sourceTree = "<group>";
@@ -1222,13 +1244,6 @@
 				9621D7D91F9CD769004B7AF1 /* AYUnwritePatientCell.xib */,
 			);
 			path = AYMainView;
-			sourceTree = "<group>";
-		};
-		9621D7CC1F9CC9C0004B7AF1 /* AYScheduleView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AYScheduleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1466,6 +1481,8 @@
 				141A7CDD1F9AE48700B9098E /* UIView+DG.m in Sources */,
 				141A7D921F9AEA4300B9098E /* AFSecurityPolicy.m in Sources */,
 				141A7E0D1F9B344D00B9098E /* AYMineWorkingController.m in Sources */,
+				141A7E291F9D8F1F00B9098E /* AYScheduleCalendarCell.m in Sources */,
+				141A7E251F9D7FFE00B9098E /* AYPatientDetailController.m in Sources */,
 				14D087551F99E50400808A52 /* AYScheduleController.m in Sources */,
 				9621D7C71F9C2F4B004B7AF1 /* AYReminderView.m in Sources */,
 				141A7CC41F9AE42900B9098E /* NSString+DG.m in Sources */,
@@ -1545,6 +1562,7 @@
 				141A7DC41F9AEA4300B9098E /* UIImageView+WebCache.m in Sources */,
 				141A7D851F9AEA4300B9098E /* MASConstraintMaker.m in Sources */,
 				9621D7B91F9BA758004B7AF1 /* IQBarButtonItem.m in Sources */,
+				141A7E221F9D7FE600B9098E /* AYUnWritePatientController.m in Sources */,
 				141A7CB01F9AE42900B9098E /* NSDate+NTExtension.m in Sources */,
 				9621D7881F9B8C10004B7AF1 /* AYSelectPickView.m in Sources */,
 				141A7CBF1F9AE42900B9098E /* NSString+Matcher.m in Sources */,
