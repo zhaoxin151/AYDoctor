@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AY_Login_Password" translatesAutoresizingMaskIntoConstraints="NO" id="yg6-r9-fwJ">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wodezhuye" translatesAutoresizingMaskIntoConstraints="NO" id="yg6-r9-fwJ">
                         <rect key="frame" x="8" y="14" width="34" height="31"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -48,7 +48,7 @@
                             <action selector="myWorkTimeBtnHandler:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bX5-jp-SNX"/>
                         </connections>
                     </button>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AY_Login_Password" translatesAutoresizingMaskIntoConstraints="NO" id="DdZ-FJ-eOn">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paibanbiao" translatesAutoresizingMaskIntoConstraints="NO" id="DdZ-FJ-eOn">
                         <rect key="frame" x="176" y="14" width="34" height="31"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -58,6 +58,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="AY_Login_Password" width="24" height="24"/>
+        <image name="paibanbiao" width="37" height="37"/>
+        <image name="wodezhuye" width="37" height="37"/>
     </resources>
 </document>

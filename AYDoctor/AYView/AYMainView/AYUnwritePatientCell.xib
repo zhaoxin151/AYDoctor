@@ -21,9 +21,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ped-vl-zpR">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tianxie" translatesAutoresizingMaskIntoConstraints="NO" id="ped-vl-zpR">
                         <rect key="frame" x="15" y="10" width="25" height="25"/>
-                        <color key="backgroundColor" red="0.74370829549999995" green="0.92132831680000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="25" id="5qa-Fc-VFA"/>
                         </constraints>
@@ -64,4 +63,7 @@
             <point key="canvasLocation" x="54" y="98"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="tianxie" width="21" height="21"/>
+    </resources>
 </document>

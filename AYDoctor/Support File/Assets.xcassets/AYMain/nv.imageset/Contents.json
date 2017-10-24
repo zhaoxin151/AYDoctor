@@ -6,12 +6,12 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "richeng-nor@2x-icon.png",
+      "filename" : "nv-@2x-icon.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "richeng-nor@3x-icon.png",
+      "filename" : "nv-@3x-icon.png",
       "scale" : "3x"
     }
   ],
